@@ -33,10 +33,15 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = 'latihan5.Pemilikbarang'
+    mainClassName = 'latihan1.ArrayMatrix2'
+    
 }
 
 test {
     // Use junit platform for unit tests
     useJUnitPlatform()
+}
+
+run{
+ standardInput = System.in
 }

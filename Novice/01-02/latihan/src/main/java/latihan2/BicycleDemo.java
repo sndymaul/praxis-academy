@@ -1,18 +1,18 @@
 package latihan2;
 
 class BicycleDemo {
-    public static void main(String[] args ) {
+    public static void main(String[]args){
 
-        //create two different
+        //Create two different
         //Bicycle objects
         Bicycle bike1 = new Bicycle();
         Bicycle bike2 = new Bicycle();
 
         //Invoke methods on
-        // those objects
+        //those objects
         bike1.changeCadence(50);
         bike1.speedUp(10);
-        bike1.changeGear(2);
+        bike1.changeCadence(2);
         bike1.printStates();
 
         bike2.changeCadence(50);
